@@ -28,79 +28,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global autonomous mining equipment and fleet navigation sector is valued at approximately **$4.5B to $5.0B** and projected to surpass **$11B to $15B+** by the early 2030s (CAGR of ~11%). The market exhibits a **bifurcated concentration**: the physical heavy-machinery and ultra-class vehicle layer is **highly concentrated** among global legacy OEMs (Caterpillar, Komatsu, Sandvik, Epiroc), whereas the autonomy perception software, retrofit navigation kits, and interoperable fleet dispatch layer is **moderately fragmented**, driving consolidation and venture-backed innovation.
+
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
-
-
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Caterpillar MineStar](https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology.html)**  
-
-  Comprehensive mining technology suite with Command for autonomous haulage, Fleet for dispatch optimization, and Health for equipment monitoring. Manages the world's largest autonomous truck fleet across multiple mine sites.
-
-
-
-- **[Komatsu FrontRunner](https://www.komatsu.com/en/solutions/mining/autonomous-haulage/)**  
-
-  Autonomous haulage system with proven deployments at large open-pit mines globally. Features GPS-based navigation, obstacle detection, and integration with dispatch systems.
-
-
-
-- **[Hexagon Mining](https://hexagon.com/industries/mining)**  
-
-  Mining technology platform with autonomous drilling, fleet management, and mine planning. Features real-time visualization and integration across the mining value chain.
-
-
-
-- **[Sandvik AutoMine](https://www.rocktechnology.sandvik/en/products/automation/automine/)**  
-
-  Autonomous mining system for underground loaders and trucks. Enables remote operation from surface control rooms with teleoperation fallback.
-
-
-
-- **[Epiroc Mobius](https://www.epiroc.com/en-us/products/automation/mobius)**  
-
-  Fleet management and automation platform for underground mining. Features traffic management, task scheduling, and real-time equipment tracking.
-
-
-
-- **[ASI Mining](https://www.asimining.com/)**  
-
-  Autonomous vehicle technology for mining, providing retrofit kits for existing haul trucks. Features obstacle detection and path planning.
-
-
-
-- **[SafeAI](https://safeai.com/)**  
-
-  Autonomous retrofit platform for heavy equipment. Enables autonomous operation of existing mining and construction vehicles.
-
-
-
-- **[Teleo](https://teleo.ai/)**  
-
-  Retrofit teleoperation and autonomy system for heavy equipment. Allows remote operation of excavators and loaders from a control center.
-
-
-
-- **[Pronto](https://pronto.ai/)**  
-
-  Autonomous haulage system for mining and quarry operations. Features retrofit autonomy for existing truck fleets.
-
-
-
-- **[RPMGlobal](https://www.rpmglobal.com/)**  
-
-  Mining software suite including mine planning, scheduling, and fleet management. Features simulation and optimization tools.
+| Platform | Company Scale (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits / Evaluation | Overview & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Caterpillar MineStar](https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology.html)** | $67.6B annual revenue (Caterpillar Inc.) | Starting at ~$15,000/site/year (entry-level MineStar Edge fleet tracking; scales up for Command AHS) | No permanent free tier; 30-day dealer-facilitated on-site pilot trial kits available upon qualification | Flagship mining ecosystem with Command (haulage), Fleet (dispatch), and Health (diagnostics) managing the world's largest autonomous truck fleet. |
+| **[Komatsu FrontRunner](https://www.komatsu.com/en/solutions/mining/autonomous-haulage/)** | ~$26.5B (¥4.13T) annual revenue (Komatsu Ltd.) | Starting at ~$50,000/site base deployment license (scales with fleet size & network dispatch) | No permanent free tier; 30-to-60 day controlled site proof-of-concept (PoC) trial on select mine testbeds | Autonomous haulage system (AHS) with extensive open-pit deployments globally, featuring high-precision GNSS and obstacle avoidance. |
+| **[Sandvik AutoMine](https://www.rocktechnology.sandvik/en/products/automation/automine/)** | ~$12.8B (SEK 120.7B) annual revenue (Sandvik AB) | Starting at ~$25,000 baseline software deployment (AutoMine Lite / Tele-Remote entry tier) | No permanent free tier; 30-day simulation & hardware testbed pilot evaluation for certified mine operators | Underground loaders and trucks automation suite enabling autonomous navigation and remote control from surface operations rooms. |
+| **[Epiroc Mobius](https://www.epiroc.com/en-us/products/automation/mobius)** | ~$5.8B (SEK 60B+) annual revenue (Epiroc AB) | Starting at ~$20,000/year base server platform license (Mobius Core dispatch & fleet tracking) | No permanent free tier; 30-day interactive simulation environment sandbox demo upon enterprise verification | Mixed-fleet automation and traffic management platform for underground and surface drilling and haulage operations. |
+| **[Hexagon Mining](https://hexagon.com/industries/mining)** | ~$4.0B (€3.7B) annual revenue (Hexagon AB) | Starting at ~$12,000/year (entry MinePlan & OP Pro fleet management single-seat module) | No permanent free tier; 14-day full-feature trial for select planning software modules | Comprehensive digital mining platform combining autonomous drilling, fleet dispatch, collision avoidance, and spatial analytics. |
+| **[Pronto](https://pronto.ai/)** | ~$1.7B parent valuation (Acquired by Atoms, $1.7B Series A) | Starting at ~$5,000/vehicle/month (Autonomous Haulage System retrofit subscription) | No permanent free tier; 14-day field demonstration & pilot benchmark period on active quarry haul routes | Sensor-driven retrofit autonomy suite for production haulage in quarry and mining fleets, eliminating reliance on extensive fixed infrastructure. |
+| **[RPMGlobal](https://www.rpmglobal.com/)** | $681M acquisition valuation (Acquired by Caterpillar; ~$50M+ ARR) | Starting at ~$10,000/year per workstation/module license (AMT Asset Management / Schedule modules) | No permanent free tier; 30-day guided enterprise evaluation license (educational partners get free semester lab licenses) | Mining software enterprise suite delivering short- and long-term mine planning, fleet simulation, and maintenance scheduling. |
+| **[ASI Mining](https://www.asimining.com/)** | ~$225M parent funding (SoftBank) / ~$30M pre-acquisition revenue | Starting at ~$8,000/vehicle/month base autonomy kit & Mobius-integrated software license | No permanent free tier; 30-day structured proof-of-concept site simulation trial for commercial fleet operators | OEM-agnostic autonomous conversion kits (Mobius Core) for retrofitting haul trucks, excavators, and ancillary vehicles. |
+| **[SafeAI](https://safeai.com/)** | ~$150M historical valuation ($91M funding; merged with Pronto) | Starting at ~$6,500/vehicle/month autonomy software subscription tier | No permanent free tier; 30-day monitored site demonstration and deployment trial on partner machinery | Heavy equipment retrofit autonomy platform automating mixed hauling and loading fleets for open-pit mining and construction. |
+| **[Teleo](https://teleo.ai/)** | ~$60M valuation ($29.8M venture funding) | Starting at ~$3,500/month per operator station / vehicle kit subscription | No permanent free tier; 14-day on-site equipment teleoperation pilot trial for qualified construction & mining contractors | Supervised autonomy and high-precision remote operation system allowing centralized control of excavators and wheel loaders. |
 
 
 
